@@ -41,6 +41,12 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('reservations.index') }}">
+                        <i class="nav-icon fa fa-file-alt"></i>
+                        <p>@lang('bt.reservation')</p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ route('clients.index', ['status' => 'active']) }}">
                         <i class="nav-icon fas fa-users"></i>
                         <p>@lang('bt.clients')</p>

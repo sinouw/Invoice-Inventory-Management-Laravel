@@ -11,3 +11,12 @@ Your clients can view and pay their invoices online using the built-in PayPal, S
 
 Built with Laravel
 
+after git clone :
+composer install
+php artisan migrate
+php artisan key:generate
+From the database add main user : 
+whatever email, name (please note that the password is 'secret' )
+In database ; users I have make user email : invoice@email.com ;
+name: invoice ( the password is secret )
+

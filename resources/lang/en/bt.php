@@ -925,4 +925,5 @@ return [
     'yes_sure'                                => ' Yes I am Sure',
     'yesterday'                               => 'Yesterday',
     'you_may_now_sign_in'                     => 'You may now sign in!',
+    'reservation' => 'Reservation'
 ];
